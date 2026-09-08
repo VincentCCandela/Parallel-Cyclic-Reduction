@@ -1,0 +1,44 @@
+[vcandela@scc-k01 current]$ nvcc -arch compute_60 -code sm_60 tri_diag_par.cu -o tri_diag_par && ./tri_diag_par
+nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+tri_diag_par.cu(55): error: this declaration has no storage class or type specifier
+    clock_gettime(
+    ^
+
+tri_diag_par.cu(55): error: declaration is incompatible with "int clock_gettime(clockid_t, timespec *)" (declared at line 219 of /usr/include/time.h)
+    clock_gettime(
+    ^
+
+tri_diag_par.cu(55): error: too many initializer values
+                                         , &time_start);
+                                           ^
+
+tri_diag_par.cu(63): error: expression preceding parentheses of apparent call must have (pointer-to-) function type
+    clock_gettime(
+    ^
+
+tri_diag_par.cu(72): error: expression preceding parentheses of apparent call must have (pointer-to-) function type
+      clock_gettime(
+      ^
+
+tri_diag_par.cu(731): error: identifier "start" is undefined
+    cudaEventCreate(&start);
+                     ^
+
+tri_diag_par.cu(732): error: identifier "stop" is undefined
+    cudaEventCreate(&stop);
+                     ^
+
+tri_diag_par.cu(764): error: identifier "elapsed_gpu" is undefined
+    cudaEventElapsedTime(&elapsed_gpu, start, stop);
+                          ^
+
+tri_diag_par.cu(779): error: expression preceding parentheses of apparent call must have (pointer-to-) function type
+    clock_gettime(
+    ^
+
+tri_diag_par.cu(832): error: expression preceding parentheses of apparent call must have (pointer-to-) function type
+    clock_gettime(
+    ^
+
+10 errors detected in the compilation of "tri_diag_par.cu".
+

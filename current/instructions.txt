@@ -1,0 +1,3 @@
+qrsh -l gpus=1 -l gpu_type=P100 -P ec527
+module load cuda
+nvcc -arch compute_60 -code sm_60 tri_diag_par.cu -o tri_diag_par && ./tri_diag_par

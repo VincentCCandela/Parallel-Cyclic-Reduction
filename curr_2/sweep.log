@@ -1,0 +1,455 @@
+NX=16 NY=16 -> compile_error
+NX=16 NY=32 -> compile_error
+NX=16 NY=64 -> compile_error
+NX=16 NY=128 -> compile_error
+NX=16 NY=256 -> compile_error
+NX=16 NY=512 -> compile_error
+NX=16 NY=1024 -> compile_error
+NX=16 NY=2048 -> compile_error
+NX=16 NY=4096 -> compile_error
+NX=32 NY=16 -> compile_error
+NX=32 NY=32 -> compile_error
+NX=32 NY=64 -> compile_error
+NX=32 NY=128 -> compile_error
+NX=32 NY=256 -> compile_error
+NX=32 NY=512 -> compile_error
+NX=32 NY=1024 -> compile_error
+NX=32 NY=2048 -> compile_error
+NX=32 NY=4096 -> compile_error
+NX=64 NY=16 -> compile_error
+NX=64 NY=32 -> compile_error
+NX=64 NY=64 -> compile_error
+NX=64 NY=128 -> compile_error
+NX=64 NY=256 -> compile_error
+NX=64 NY=512 -> compile_error
+NX=64 NY=1024 -> compile_error
+NX=64 NY=2048 -> compile_error
+NX=64 NY=4096 -> compile_error
+NX=128 NY=16 -> compile_error
+NX=128 NY=32 -> compile_error
+NX=128 NY=64 -> compile_error
+NX=128 NY=128 -> compile_error
+NX=128 NY=256 -> compile_error
+NX=128 NY=512 -> compile_error
+NX=128 NY=1024 -> compile_error
+NX=128 NY=2048 -> compile_error
+NX=128 NY=4096 -> compile_error
+NX=256 NY=16 -> compile_error
+NX=256 NY=32 -> compile_error
+NX=256 NY=64 -> compile_error
+NX=256 NY=128 -> compile_error
+NX=256 NY=256 -> compile_error
+NX=256 NY=512 -> compile_error
+NX=256 NY=1024 -> compile_error
+NX=256 NY=2048 -> compile_error
+NX=256 NY=4096 -> compile_error
+NX=512 NY=16 -> compile_error
+NX=512 NY=32 -> compile_error
+NX=512 NY=64 -> compile_error
+NX=512 NY=128 -> compile_error
+NX=512 NY=256 -> compile_error
+NX=512 NY=512 -> compile_error
+NX=512 NY=1024 -> compile_error
+NX=512 NY=2048 -> compile_error
+NX=512 NY=4096 -> compile_error
+NX=1024 NY=16 -> compile_error
+NX=1024 NY=32 -> compile_error
+NX=1024 NY=64 -> compile_error
+NX=1024 NY=128 -> compile_error
+NX=1024 NY=256 -> compile_error
+NX=1024 NY=512 -> compile_error
+NX=1024 NY=1024 -> compile_error
+NX=1024 NY=2048 -> compile_error
+NX=1024 NY=4096 -> compile_error
+NX=2048 NY=16 -> compile_error
+NX=2048 NY=32 -> compile_error
+NX=2048 NY=64 -> compile_error
+NX=2048 NY=128 -> compile_error
+NX=2048 NY=256 -> compile_error
+NX=2048 NY=512 -> compile_error
+NX=2048 NY=1024 -> compile_error
+NX=2048 NY=2048 -> compile_error
+NX=2048 NY=4096 -> compile_error
+NX=4096 NY=16 -> compile_error
+NX=4096 NY=32 -> compile_error
+NX=4096 NY=64 -> compile_error
+NX=4096 NY=128 -> compile_error
+NX=4096 NY=256 -> compile_error
+NX=4096 NY=512 -> compile_error
+NX=4096 NY=1024 -> compile_error
+NX=4096 NY=2048 -> compile_error
+NX=4096 NY=4096 -> compile_error
+results written to sweep_results_qsub.csv
+NX=16 NY=16 -> 4.750114
+NX=16 NY=32 -> 4.716289
+NX=16 NY=64 -> 4.711215
+NX=16 NY=128 -> 4.710853
+NX=16 NY=256 -> 4.711321
+NX=16 NY=512 -> 4.712050
+NX=16 NY=1024 -> 4.710546
+NX=16 NY=2048 -> 4.704673
+NX=16 NY=4096 -> compile_error
+NX=32 NY=16 -> 4.828031
+NX=32 NY=32 -> 4.793751
+NX=32 NY=64 -> 4.788592
+NX=32 NY=128 -> 4.788264
+NX=32 NY=256 -> 4.788732
+NX=32 NY=512 -> 4.789490
+NX=32 NY=1024 -> 4.787964
+NX=32 NY=2048 -> 4.781997
+NX=32 NY=4096 -> compile_error
+NX=64 NY=16 -> 4.866837
+NX=64 NY=32 -> 4.832335
+NX=64 NY=64 -> 4.827165
+NX=64 NY=128 -> 4.826793
+NX=64 NY=256 -> 4.827279
+NX=64 NY=512 -> 4.828069
+NX=64 NY=1024 -> 4.826558
+NX=64 NY=2048 -> 4.820467
+NX=64 NY=4096 -> compile_error
+NX=128 NY=16 -> 4.886073
+NX=128 NY=32 -> 4.851357
+NX=128 NY=64 -> 4.846205
+NX=128 NY=128 -> 4.845843
+NX=128 NY=256 -> 4.846338
+NX=128 NY=512 -> 4.847140
+NX=128 NY=1024 -> 4.845561
+NX=128 NY=2048 -> 4.839463
+NX=128 NY=4096 -> compile_error
+NX=256 NY=16 -> 4.894128
+NX=256 NY=32 -> 4.859274
+NX=256 NY=64 -> 4.854138
+NX=256 NY=128 -> 4.853758
+NX=256 NY=256 -> 4.854290
+NX=256 NY=512 -> 4.855021
+NX=256 NY=1024 -> 4.853463
+NX=256 NY=2048 -> 4.847350
+NX=256 NY=4096 -> compile_error
+NX=512 NY=16 -> 4.895275
+NX=512 NY=32 -> 4.860563
+NX=512 NY=64 -> 4.855269
+NX=512 NY=128 -> 4.854954
+NX=512 NY=256 -> 4.855566
+NX=512 NY=512 -> 4.856287
+NX=512 NY=1024 -> 4.854694
+NX=16 NY=16 -> gpu=2.260992 cpu=55.017122
+NX=16 NY=32 -> gpu=2.208768 cpu=125.913705
+NX=16 NY=64 -> gpu=2.268160 cpu=290.925097
+NX=16 NY=128 -> gpu=2.267136 cpu=556.710667
+NX=16 NY=256 -> gpu=2.205696 cpu=1129.765079
+NX=16 NY=512 -> gpu=2.221056 cpu=2443.811036
+NX=16 NY=1024 -> gpu=2.241536 cpu=5057.074253
+NX=16 NY=2048 -> gpu=2.218592 cpu=10834.828163
+NX=16 NY=4096 -> gpu=compile_error cpu=compile_error
+NX=32 NY=16 -> gpu=2.210816 cpu=125.436634
+NX=32 NY=32 -> gpu=2.296832 cpu=284.286045
+NX=32 NY=64 -> gpu=2.236416 cpu=647.392750
+NX=32 NY=128 -> gpu=2.232320 cpu=1253.813389
+NX=32 NY=256 -> gpu=2.210816 cpu=2578.599528
+NX=32 NY=512 -> gpu=2.200576 cpu=5474.933457
+NX=32 NY=1024 -> gpu=2.209056 cpu=11498.753635
+NX=32 NY=2048 -> gpu=2.222304 cpu=24257.621077
+NX=32 NY=4096 -> gpu=compile_error cpu=compile_error
+NX=64 NY=16 -> gpu=2.279424 cpu=280.944600
+NX=64 NY=32 -> gpu=2.215936 cpu=636.300835
+NX=64 NY=64 -> gpu=2.197504 cpu=1401.071902
+NX=64 NY=128 -> gpu=2.240512 cpu=2751.140722
+NX=64 NY=256 -> gpu=2.224128 cpu=5657.421273
+NX=64 NY=512 -> gpu=2.237344 cpu=12074.529811
+NX=64 NY=1024 -> gpu=2.250016 cpu=25210.472917
+NX=64 NY=2048 -> gpu=2.231616 cpu=52346.422620
+NX=64 NY=4096 -> gpu=compile_error cpu=compile_error
+NX=128 NY=16 -> gpu=2.210816 cpu=590.752914
+NX=128 NY=32 -> gpu=2.309120 cpu=1349.858092
+NX=128 NY=64 -> gpu=2.242560 cpu=3007.055795
+NX=128 NY=128 -> gpu=2.224128 cpu=5854.508133
+NX=128 NY=256 -> gpu=2.224288 cpu=11973.330291
+NX=128 NY=512 -> gpu=2.266464 cpu=25488.653477
+NX=128 NY=1024 -> gpu=2.162304 cpu=53261.071050
+NX=16 NY=16 -> gpu=2.458624 cpu=54.933532
+NX=16 NY=32 -> gpu=2.449408 cpu=125.882366
+NX=16 NY=64 -> gpu=2.464768 cpu=281.764175
+NX=16 NY=128 -> gpu=2.510848 cpu=559.323485
+NX=16 NY=256 -> gpu=2.114560 cpu=1082.205084
+NX=16 NY=512 -> gpu=2.139136 cpu=2341.543609
+NX=16 NY=1024 -> gpu=2.165760 cpu=4912.609378
+NX=16 NY=2048 -> gpu=2.190016 cpu=10296.353138
+NX=16 NY=4096 -> gpu=compile_error cpu=compile_error
+NX=32 NY=16 -> gpu=2.185216 cpu=118.602828
+NX=32 NY=32 -> gpu=2.249728 cpu=271.652111
+NX=32 NY=64 -> gpu=2.446336 cpu=620.871402
+NX=32 NY=128 -> gpu=2.487296 cpu=1206.842174
+NX=32 NY=256 -> gpu=2.164736 cpu=2420.311792
+NX=32 NY=512 -> gpu=2.163712 cpu=5174.168316
+NX=32 NY=1024 -> gpu=2.222656 cpu=11018.212520
+NX=32 NY=2048 -> gpu=2.138592 cpu=22700.587684
+NX=32 NY=4096 -> gpu=compile_error cpu=compile_error
+NX=64 NY=16 -> gpu=2.152448 cpu=261.324079
+NX=64 NY=32 -> gpu=2.438144 cpu=621.260992
+NX=64 NY=64 -> gpu=2.481152 cpu=1392.974124
+NX=64 NY=128 -> gpu=2.506752 cpu=2779.141566
+NX=64 NY=256 -> gpu=2.487296 cpu=5567.152086
+NX=64 NY=512 -> gpu=2.152416 cpu=11305.601025
+NX=64 NY=1024 -> gpu=2.183136 cpu=23576.006008
+NX=64 NY=2048 -> gpu=2.421792 cpu=52030.726211
+NX=64 NY=4096 -> gpu=compile_error cpu=compile_error
+NX=128 NY=16 -> gpu=2.489344 cpu=586.353796
+NX=128 NY=32 -> gpu=2.460672 cpu=1297.597642
+NX=128 NY=64 -> gpu=2.174976 cpu=2839.509408
+NX=128 NY=128 -> gpu=2.150400 cpu=5572.107386
+NX=128 NY=256 -> gpu=2.426816 cpu=11785.333661
+NX=128 NY=512 -> gpu=2.420384 cpu=25061.743580
+NX=128 NY=1024 -> gpu=2.415168 cpu=52348.865695
+NX=128 NY=2048 -> gpu=2.452832 cpu=110415.763114
+NX=128 NY=4096 -> gpu=compile_error cpu=compile_error
+NX=256 NY=16 -> gpu=2.477056 cpu=1242.954735
+NX=256 NY=32 -> gpu=2.466816 cpu=2710.552990
+NX=256 NY=64 -> gpu=2.148352 cpu=5950.288512
+NX=256 NY=128 -> gpu=2.152096 cpu=11655.956517
+NX=256 NY=256 -> gpu=2.210144 cpu=23747.128668
+NX=256 NY=512 -> gpu=2.453376 cpu=50487.922374
+NX=256 NY=1024 -> gpu=2.081984 cpu=106414.786696
+NX=256 NY=2048 -> gpu=2.361888 cpu=222023.544895
+NX=256 NY=4096 -> gpu=compile_error cpu=compile_error
+NX=512 NY=16 -> gpu=NA cpu=NA
+NX=512 NY=32 -> gpu=NA cpu=NA
+NX=512 NY=64 -> gpu=NA cpu=NA
+NX=512 NY=128 -> gpu=NA cpu=NA
+NX=512 NY=256 -> gpu=NA cpu=NA
+NX=512 NY=512 -> gpu=compile_error cpu=compile_error
+NX=512 NY=1024 -> gpu=compile_error cpu=compile_error
+NX=512 NY=2048 -> gpu=compile_error cpu=compile_error
+NX=512 NY=4096 -> gpu=compile_error cpu=compile_error
+NX=1024 NY=16 -> gpu=compile_error cpu=compile_error
+NX=1024 NY=32 -> gpu=compile_error cpu=compile_error
+NX=1024 NY=64 -> gpu=compile_error cpu=compile_error
+NX=1024 NY=128 -> gpu=compile_error cpu=compile_error
+NX=1024 NY=256 -> gpu=compile_error cpu=compile_error
+NX=1024 NY=512 -> gpu=compile_error cpu=compile_error
+NX=1024 NY=1024 -> gpu=compile_error cpu=compile_error
+NX=1024 NY=2048 -> gpu=compile_error cpu=compile_error
+NX=1024 NY=4096 -> gpu=compile_error cpu=compile_error
+NX=2048 NY=16 -> gpu=compile_error cpu=compile_error
+NX=2048 NY=32 -> gpu=compile_error cpu=compile_error
+NX=2048 NY=64 -> gpu=compile_error cpu=compile_error
+NX=2048 NY=128 -> gpu=compile_error cpu=compile_error
+NX=2048 NY=256 -> gpu=compile_error cpu=compile_error
+NX=2048 NY=512 -> gpu=compile_error cpu=compile_error
+NX=2048 NY=1024 -> gpu=compile_error cpu=compile_error
+NX=2048 NY=2048 -> gpu=compile_error cpu=compile_error
+NX=2048 NY=4096 -> gpu=compile_error cpu=compile_error
+NX=4096 NY=16 -> gpu=compile_error cpu=compile_error
+NX=4096 NY=32 -> gpu=compile_error cpu=compile_error
+NX=4096 NY=64 -> gpu=compile_error cpu=compile_error
+NX=4096 NY=128 -> gpu=compile_error cpu=compile_error
+NX=4096 NY=256 -> gpu=compile_error cpu=compile_error
+NX=4096 NY=512 -> gpu=compile_error cpu=compile_error
+NX=4096 NY=1024 -> gpu=compile_error cpu=compile_error
+NX=4096 NY=2048 -> gpu=compile_error cpu=compile_error
+NX=4096 NY=4096 -> gpu=compile_error cpu=compile_error
+results written to sweep_results_qsub_v3.csv
+NX=16 NY=16 done
+NX=16 NY=32 done
+NX=16 NY=64 done
+NX=16 NY=128 done
+NX=16 NY=256 done
+NX=16 NY=512 done
+NX=16 NY=1024 done
+NX=16 NY=2048 done
+NX=16 NY=4096 compile_error
+NX=32 NY=16 done
+NX=32 NY=32 done
+NX=32 NY=64 done
+NX=32 NY=128 done
+NX=32 NY=256 done
+NX=32 NY=512 done
+NX=32 NY=1024 done
+NX=32 NY=2048 done
+NX=32 NY=4096 compile_error
+NX=64 NY=16 done
+NX=64 NY=32 done
+NX=64 NY=64 done
+NX=64 NY=128 done
+NX=64 NY=256 done
+NX=64 NY=512 done
+NX=64 NY=1024 done
+NX=64 NY=2048 done
+NX=64 NY=4096 compile_error
+NX=128 NY=16 done
+NX=128 NY=32 done
+NX=128 NY=64 done
+NX=128 NY=128 done
+NX=128 NY=256 done
+NX=128 NY=512 done
+NX=128 NY=1024 done
+NX=128 NY=2048 done
+NX=128 NY=4096 compile_error
+NX=256 NY=16 done
+NX=256 NY=32 done
+NX=256 NY=64 done
+NX=256 NY=128 done
+NX=256 NY=256 done
+NX=256 NY=512 done
+=== NX=16 NY=16 ===
+16,16,2.220032, 54.046817
+=== NX=16 NY=32 ===
+16,32,2.399232, 121.896604
+=== NX=16 NY=64 ===
+16,64,2.325504, 273.611546
+=== NX=16 NY=128 ===
+16,128,2.270208, 538.486593
+=== NX=16 NY=256 ===
+16,256,2.255872, 1129.351881
+=== NX=16 NY=512 ===
+16,512,2.277376, 2376.109500
+=== NX=16 NY=1024 ===
+16,1024,2.333696, 4969.606257
+=== NX=16 NY=2048 ===
+16,2048,2.374304, 10356.783808
+=== NX=16 NY=4096 ===
+compile_error
+=== NX=32 NY=16 ===
+32,16,2.349088, 118.517088
+=== NX=32 NY=32 ===
+32,32,2.191360, 274.343574
+=== NX=32 NY=64 ===
+32,64,2.157568, 612.411638
+=== NX=32 NY=128 ===
+32,128,2.213888, 1199.829125
+=== NX=32 NY=256 ===
+32,256,2.177024, 2461.377017
+=== NX=32 NY=512 ===
+32,512,2.152448, 5275.031492
+=== NX=32 NY=1024 ===
+32,1024,2.450592, 11126.807760
+=== NX=32 NY=2048 ===
+32,2048,2.365088, 23078.590500
+=== NX=32 NY=4096 ===
+compile_error
+=== NX=64 NY=16 ===
+64,16,2.384896, 264.882669
+=== NX=64 NY=32 ===
+64,32,2.224128, 605.308454
+=== NX=64 NY=64 ===
+64,64,2.159584, 1343.248863
+=== NX=64 NY=128 ===
+64,128,2.148352, 2662.705943
+=== NX=64 NY=256 ===
+64,256,2.200608, 5391.468786
+=== NX=64 NY=512 ===
+64,512,2.239264, 11428.347761
+=== NX=64 NY=1024 ===
+64,1024,2.237376, 23650.791935
+=== NX=64 NY=2048 ===
+64,2048,2.143552, 49801.196429
+=== NX=64 NY=4096 ===
+compile_error
+=== NX=128 NY=16 ===
+128,16,2.228224, 562.475112
+=== NX=128 NY=32 ===
+128,32,2.211840, 1287.997180
+=== NX=128 NY=64 ===
+128,64,2.144256, 2882.773103
+=== NX=128 NY=128 ===
+128,128,2.171904, 5619.649952
+=== NX=128 NY=256 ===
+128,256,2.175776, 11490.115463
+=== NX=128 NY=512 ===
+128,512,2.231712, 24151.346507
+=== NX=128 NY=1024 ===
+128,1024,2.092160, 50364.192727
+=== NX=128 NY=2048 ===
+128,2048,2.195232, 106437.002116
+=== NX=128 NY=4096 ===
+compile_error
+=== NX=256 NY=16 ===
+256,16,2.201600, 1191.370757
+=== NX=256 NY=32 ===
+256,32,2.152448, 2718.863106
+=== NX=256 NY=64 ===
+256,64,2.173952, 6030.353696
+=== NX=256 NY=128 ===
+256,128,2.205152, 11806.243748
+=== NX=256 NY=256 ===
+256,256,2.241248, 24051.907534
+=== NX=256 NY=512 ===
+256,512,2.118272, 50735.475074
+=== NX=256 NY=1024 ===
+256,1024,2.114016, 106791.592035
+=== NX=256 NY=2048 ===
+256,2048,2.120704, 224275.186399
+=== NX=256 NY=4096 ===
+compile_error
+=== NX=512 NY=16 ===
+512,16,2.165760, 2525.624008
+=== NX=512 NY=32 ===
+512,32,2.096128, 5629.953289
+=== NX=512 NY=64 ===
+512,64,2.082624, 12512.134607
+=== NX=512 NY=128 ===
+512,128,2.214656, 24428.620201
+=== NX=512 NY=256 ===
+512,256,2.085632, 50217.992499
+=== NX=512 NY=512 ===
+512,512,2.175264, 109146.968861
+=== NX=512 NY=1024 ===
+512,1024,2.250528, 229467.107032
+=== NX=512 NY=2048 ===
+512,2048,2.221312, 475737.173068
+=== NX=512 NY=4096 ===
+compile_error
+=== NX=1024 NY=16 ===
+1024,16,2.295808, 5302.055863
+=== NX=1024 NY=32 ===
+1024,32,2.164448, 12061.692241
+=== NX=1024 NY=64 ===
+1024,64,2.286976, 26522.613710
+=== NX=1024 NY=128 ===
+1024,128,2.202208, 52445.102594
+=== NX=1024 NY=256 ===
+1024,256,2.182560, 110576.340271
+=== NX=1024 NY=512 ===
+1024,512,2.223616, 230395.029592
+=== NX=1024 NY=1024 ===
+1024,1024,2.242368, 478702.977658
+=== NX=1024 NY=2048 ===
+1024,2048,2.216864, 995106.357249
+=== NX=1024 NY=4096 ===
+compile_error
+=== NX=2048 NY=16 ===
+2048,16,2.386464, 11195.989482
+=== NX=2048 NY=32 ===
+2048,32,2.190464, 25248.102815
+=== NX=2048 NY=64 ===
+2048,64,2.240928, 54789.914976
+=== NX=2048 NY=128 ===
+2048,128,2.194784, 108550.709653
+=== NX=2048 NY=256 ===
+2048,256,2.218176, 224220.181694
+=== NX=2048 NY=512 ===
+2048,512,2.175488, 470365.442878
+=== NX=2048 NY=1024 ===
+2048,1024,2.191488, 979876.209662
+=== NX=2048 NY=2048 ===
+2048,2048,2.203776, 2153489.979991
+=== NX=2048 NY=4096 ===
+compile_error
+=== NX=4096 NY=16 ===
+compile_error
+=== NX=4096 NY=32 ===
+compile_error
+=== NX=4096 NY=64 ===
+compile_error
+=== NX=4096 NY=128 ===
+compile_error
+=== NX=4096 NY=256 ===
+compile_error
+=== NX=4096 NY=512 ===
+compile_error
+=== NX=4096 NY=1024 ===
+compile_error
+=== NX=4096 NY=2048 ===
+compile_error
+=== NX=4096 NY=4096 ===
+compile_error
+results written to sweep_results_qsub_v5.csv
