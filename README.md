@@ -6,4 +6,4 @@
 
 # curr_2/ 
 - tri_diag_par_v2.cu 
--PCR double-buffered (ping-pong) using two shared buffers per array
+- PCR double-buffered (ping-pong) using two shared buffers per array
